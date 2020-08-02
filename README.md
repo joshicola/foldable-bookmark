@@ -5,7 +5,9 @@ Simple application to create a foldable bookmark from an image
 
 ```python image_to_pages.py --picture=images/Earth.jpg```
 
-Page_1.svg
+Once aligned and printed, these can be folded in the following manner:
+
+[Origami Bookmark](https://www.redtedart.com/origami-bookmark/).
 
 ## Output
 
@@ -26,3 +28,7 @@ Front Side (Page 1):
 Back Side (Page 2):
 
 <img src="./images/Page_2.png" alt="drawing" width="400"  border=1px/>
+
+## Options:
+
+Incorporate svg and pdf output into the script itself.
