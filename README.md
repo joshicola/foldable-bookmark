@@ -9,12 +9,12 @@ Simple application to create a foldable bookmark from an image
 
 Original:
 
-<img src="./images/Earth.jpg" alt="drawing" width="200"/>
+<img src="./images/Earth.jpg" alt="drawing" width="200" border=1px/>
 
 Front Side (Page 1):
 
-<img src="./images/Page_1.png" alt="drawing" width="400"/> 
+<img src="./images/Page_1.png" alt="drawing" width="400"  border=1px/> 
 
 Back Side (Page 2):
 
-<img src="./images/Page_2.png" alt="drawing" width="400"/>
+<img src="./images/Page_2.png" alt="drawing" width="400"  border=1px/>

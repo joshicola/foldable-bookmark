@@ -7,17 +7,20 @@ from PIL import Image
 
 def main(args):
     """
-    
+    Crops input image to square and makes foldable bookmark
 
     Args:
-        args ([type]): [description]
+        args (argparse.Namespace): Arguments from argparse
     """
     img_path = args.picture
     img = Image.open(img_path)
+
+    # get minimum size axis and crop
     min_size = min(img.size)
     img = img.crop([0, 0, min_size, min_size])
     img_array = np.array(img)
 
+    # create two pages twice the size of the origninal image
     page_1 = np.ones([min_size * 2, min_size * 2, 3]) * 255
     page_2 = np.ones([min_size * 2, min_size * 2, 3]) * 255
 
