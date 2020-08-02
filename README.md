@@ -3,9 +3,17 @@ Simple application to create a foldable bookmark from an image
 
 ## Usage
 
-```python image_to_pages.py --picture=images/Earth.png```
+```python image_to_pages.py --picture=images/Earth.jpg```
+
+Page_1.svg
 
 ## Output
+
+There are two files as output: The Front Side ([Page_1.png](images/Page_1.png)) and the Back Side ([Page_1.png](images/Page_1.png)) (see below).
+
+These can be incorporated into Scalable Vector Graffics files ([Page_1.svg](images/Page_1.svg) and [Page_1.svg](images/Page_1.svg)) and printed directly on either side of a single piece of paper.
+
+Furthermore, they can be combined into a single PDF (see [PDFs](PDFs/)) and printed double-sided.
 
 Original:
 
